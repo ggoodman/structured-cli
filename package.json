@@ -2,7 +2,7 @@
   "name": "structured-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build-docs": "jsdoc2md --global-index-format none --module-index-format none --heading-depth 3 -t jsdoc2md/README.hbs lib/*.js > README.md; echo"
   },
