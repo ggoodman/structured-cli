@@ -1,0 +1,36 @@
+{
+  "name": "structured-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-docs": "jsdoc2md --global-index-format none --module-index-format none --heading-depth 3 -t jsdoc2md/README.hbs lib/*.js > README.md; echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggoodman/structured-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "nested",
+    "hierarchy",
+    "command",
+    "category"
+  ],
+  "author": "Geoff Goodman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggoodman/structured-cli/issues"
+  },
+  "homepage": "https://github.com/ggoodman/structured-cli#readme",
+  "dependencies": {
+    "argparse": "^1.0.6",
+    "bluebird": "^3.3.1",
+    "lodash": "^4.3.0"
+  },
+  "devDependencies": {
+    "code": "^1.5.0",
+    "jsdoc-to-markdown": "^1.3.3",
+    "lab": "^5.18.1"
+  }
+}
