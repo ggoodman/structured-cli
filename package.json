@@ -1,6 +1,6 @@
 {
   "name": "structured-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Easily compose CLI applications from nested commands and categories",
   "main": "lib/index.js",
   "scripts": {
