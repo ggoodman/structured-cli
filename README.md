@@ -77,7 +77,7 @@ TODO
 
 ## Usages
 
-This library will be used in [wt-cli](https://github.com/auth0/structured-cli).
+This library is used in [wt-cli](https://github.com/auth0/wt-cli).
 
 ## Contributing
 
