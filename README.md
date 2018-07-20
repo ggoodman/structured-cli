@@ -27,7 +27,7 @@ var Widgets = require('./widget-service'); // Imaginary api
 // The 'root' of our app is an anonymous category
 var app = Cli.createApp();
 
-app.addChild(Cli.command('init', {
+app.addChild(Cli.createCommand('init', {
     description: 'Initialize the tool',
     handler: function (args) {
         // Initialize the tool
@@ -36,11 +36,11 @@ app.addChild(Cli.command('init', {
 
 
 // You can nest categories as deep as you would like
-var widgets = Cli.category('widgets', {
+var widgets = Cli.createCommand('widgets', {
     description: 'Manage your inventory of widgets.'
 });
 
-var listCommand = Cli.command('ls', {
+var listCommand = Cli.createCommand('ls', {
     description: 'List your widgets',
     options: {
         color: {
